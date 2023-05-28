@@ -6596,9 +6596,8 @@
             p(e);
           },
           ew = async (e) => {
-            A(true); 
-            return;
-            }
+           A(true); 
+           return;
             try {
               let t = await fetch("https://www.webmind.app/api/license", {
                 method: "POST",
