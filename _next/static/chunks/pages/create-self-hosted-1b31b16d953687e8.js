@@ -31,13 +31,13 @@
           } = e,
           l = a
             ? a.brand + " – " + a.tagline
-            : "webmind.app — A better UI for ChatGPT",
+            : "TypingMind — A better UI for ChatGPT",
           c = (n ? "(*) " : "") + (t || l),
           d = a
             ? a.hostname
               ? "https://" + a.hostname + "/"
               : "https://".concat(a.subdomain, ".typingcloud.com/")
-            : "https://www.webmind.app",
+            : "https://www.typingmind.com",
           m =
             a &&
             ""
@@ -49,7 +49,7 @@
             o ||
             (null == a ? void 0 : a.posterURL) ||
             m ||
-            "https://www.webmind.app/poster-2.png",
+            "https://www.typingmind.com/poster-2.png",
           u = (null == a ? void 0 : a.description) || i,
           h = null == a ? void 0 : a.logoURL;
         return (0, s.jsxs)(r(), {
@@ -188,7 +188,7 @@
                       children: (0, s.jsx)("a", {
                         href: "/",
                         className: "text-blue-500 hover:underline",
-                        children: "Go back to webmind.app",
+                        children: "Go back to TypingMind.com",
                       }),
                     }),
                     (0, s.jsxs)("div", {
@@ -201,7 +201,7 @@
                         (0, s.jsxs)("div", {
                           className: "text-2xl text-center font-semibold my-10",
                           children: [
-                            "While-labeling your self-hosted webmind.app.",
+                            "While-labeling your self-hosted TypingMind.",
                             (0, s.jsx)("br", {}),
                             "With only 4 simple steps:",
                           ],
@@ -248,7 +248,7 @@
                                   (0, s.jsx)("b", {
                                     children: "root directory",
                                   }),
-                                  " of your current webmind.app self-host site.",
+                                  " of your current TypingMind self-host site.",
                                 ],
                               }),
                               (0, s.jsxs)("li", {

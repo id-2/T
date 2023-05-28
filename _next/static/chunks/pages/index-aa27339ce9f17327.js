@@ -407,7 +407,7 @@
                 "text-xs font-semibold text-gray-500 text-center px-4 mt-4",
               children: [
                 "You will receive a verification email from ",
-                (0, n.jsx)("b", { children: "hosted@webmind.app" }),
+                (0, n.jsx)("b", { children: "hosted@typingmind.com" }),
                 ". Please check your spam folder if you don't see it in your inbox.",
               ],
             }),
@@ -645,7 +645,7 @@
                     "We trained a GPT-4 model to answer your questions based on our",
                     " ",
                     (0, n.jsx)("a", {
-                      href: "https://www.webmind.app/faqs",
+                      href: "https://www.typingmind.com/faqs",
                       target: "_blank",
                       className: "text-blue-500 hover:underline",
                       children: "FAQs",
@@ -653,7 +653,7 @@
                     ",",
                     " ",
                     (0, n.jsx)("a", {
-                      href: "https://www.webmind.app/terms",
+                      href: "https://www.typingmind.com/terms",
                       target: "_blank",
                       className: "text-blue-500 hover:underline",
                       children: "Terms of Service",
@@ -661,7 +661,7 @@
                     ", and",
                     " ",
                     (0, n.jsx)("a", {
-                      href: "https://www.webmind.app/privacy",
+                      href: "https://www.typingmind.com/privacy",
                       target: "_blank",
                       className: "text-blue-500 hover:underline",
                       children: "Privacy Policy",
@@ -673,7 +673,7 @@
                   className: "my-2 text-xs",
                   children: "Expected response time: 10 seconds",
                 }),
-                (0, n.jsx)(y.Z, { showIntro: !1, source: "webmind.app" }),
+                (0, n.jsx)(y.Z, { showIntro: !1, source: "typingmind" }),
               ],
             }),
             (0, n.jsx)("hr", { className: "my-4" }),
@@ -684,11 +684,11 @@
                 ": ",
                 (0, n.jsx)("br", {}),
                 (0, n.jsx)("a", {
-                  href: "mailto:feedback@webmind.app",
+                  href: "mailto:feedback@typingmind.com",
                   className: "text-blue-600 hover:underline",
                   target: "_blank",
                   rel: "noreferrer noopener",
-                  children: "feedback@webmind.app",
+                  children: "feedback@typingmind.com",
                 }),
                 " ",
                 (0, n.jsx)("br", {}),
@@ -706,11 +706,11 @@
                 ": ",
                 (0, n.jsx)("br", {}),
                 (0, n.jsx)("a", {
-                  href: "mailto:support@webmind.app",
+                  href: "mailto:support@typingmind.com",
                   className: "text-blue-600 hover:underline",
                   target: "_blank",
                   rel: "noreferrer noopener",
-                  children: "support@webmind.app",
+                  children: "support@typingmind.com",
                 }),
                 " ",
                 (0, n.jsx)("br", {}),
@@ -1096,7 +1096,7 @@
                         (0, n.jsx)("li", {
                           children: (0, n.jsx)("a", {
                             target: "_blank",
-                            href: "https://webmind.app/features",
+                            href: "https://typingmind.com/features",
                             className: "text-blue-500 hover:underline",
                             children: "Premium Features",
                           }),
@@ -1729,7 +1729,7 @@
                 return;
               }
               let s = await e.json();
-              F.Z.set("webmind.appcloud_token", s.token, { expires: 30 }),
+              F.Z.set("typingmindcloud_token", s.token, { expires: 30 }),
                 null == t || t();
             } catch (e) {
               console.error(e), i(V);
@@ -1844,10 +1844,10 @@
           f();
         }, [r]);
         let m = () => {
-            F.Z.remove("webmind.appcloud_token"), d(null);
+            F.Z.remove("typingmindcloud_token"), d(null);
           },
           f = () => {
-            let e = F.Z.get("webmind.appcloud_token"),
+            let e = F.Z.get("typingmindcloud_token"),
               t = B().decode(e);
             d(t);
           };
@@ -1896,7 +1896,7 @@
                   children: [
                     (0, n.jsx)("div", {
                       className: "text-base font-semibold my-4",
-                      children: "Signup webmind.app Cloud Backup & Sync",
+                      children: "Signup TypingMind Cloud Backup & Sync",
                     }),
                     (0, n.jsxs)("div", {
                       className: "text-xs space-y-2",
@@ -1911,14 +1911,14 @@
                               children: [
                                 "All of your saved chats, messages, and prompts will be uploaded to ",
                                 (0, n.jsx)("b", {
-                                  children: "cloud.webmind.app",
+                                  children: "cloud.typingmind.com",
                                 }),
                                 " so that it can be synced between devices. We don't store your API Key, License Key, or any other personal information.",
                               ],
                             }),
                             (0, n.jsx)("li", {
                               children:
-                                "Your data will be associated with your webmind.app Cloud account. You can register an account with your License Key automatically and claim 10MB of data storage for free.",
+                                "Your data will be associated with your TypingMind Cloud account. You can register an account with your License Key automatically and claim 10MB of data storage for free.",
                             }),
                             (0, n.jsxs)("li", {
                               children: [
@@ -1926,7 +1926,7 @@
                                 (0, n.jsx)("b", {
                                   children: "planetscale.com",
                                 }),
-                                " to store your data. Your data on webmind.app Cloud is AES encrypted both in transit and at rest.",
+                                " to store your data. Your data on TypingMind Cloud is AES encrypted both in transit and at rest.",
                               ],
                             }),
                             (0, n.jsxs)("li", {
@@ -2026,7 +2026,7 @@
                     "text-lg font-semibold flex items-center justify-start gap-2",
                   children: [
                     (0, n.jsx)(u.H_w, { className: "h-5 w-5 text-blue-500" }),
-                    "webmind.app Cloud",
+                    "TypingMind Cloud",
                     " ",
                     (0, n.jsx)("span", {
                       className:
@@ -2052,7 +2052,7 @@
               : (0, n.jsxs)("div", {
                   className: "text-xs my-2",
                   children: [
-                    (0, n.jsx)("b", { children: "webmind.app Cloud" }),
+                    (0, n.jsx)("b", { children: "TypingMind Cloud" }),
                     " provides a cloud storage for your data. You can backup your data to the cloud and sync your data across devices.",
                   ],
                 }),
@@ -2219,7 +2219,7 @@
           }
           try {
             m(!0), p("");
-            let e = await fetch("https://www.webmind.app/api/license", {
+            let e = await fetch("https://www.typingmind.com/api/license", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ key: u }),
@@ -2372,7 +2372,7 @@
                     (0, n.jsx)("p", {
                       className: "my-2 text-xs",
                       children:
-                        "The app will connect to webmind.app license server to verify your license key.",
+                        "The app will connect to TypingMind.com license server to verify your license key.",
                     }),
                   ],
                 }),
@@ -2454,7 +2454,7 @@
                           (0, n.jsx)("div", {
                             className: "text-xs text-gray-500 my-1",
                             children:
-                              "webmind.app will ask for your password every time you open the app. If you forget your password, you will need to enter your API key again.",
+                              "TypingMind will ask for your password every time you open the app. If you forget your password, you will need to enter your API key again.",
                           }),
                           (0, n.jsx)("div", {
                             children: (0, n.jsx)("input", {
@@ -3004,7 +3004,7 @@
       (0, i.eK)("useLicenseKey");
       var ek = s(5434);
       function eC(e) {
-        let { link: t = "mailto:feedback@webmind.app" } = e,
+        let { link: t = "mailto:feedback@typingmind.com" } = e,
           [s, r] = (0, l.useState)(!1);
         return (0, n.jsxs)("div", {
           children: [
@@ -4496,9 +4496,9 @@
                     A.hosted
                       ? A.brand
                       : (0, n.jsx)("a", {
-                          href: "https://webmind.app",
+                          href: "https://typingmind.com",
                           className: "jsx-7078ffb922cb3c38",
-                          children: "webmind.app",
+                          children: "TypingMind.com",
                         }),
                     " ",
                     "\xa9 ",
@@ -4713,7 +4713,7 @@
           try {
             await new Promise((e) => setTimeout(e, 2e3));
             let t = await fetch(
-              "https://www.webmind.app/api/share?id=" + e,
+              "https://www.typingmind.com/api/share?id=" + e,
               { method: "GET", headers: { "Content-Type": "application/json" } }
             );
             if (t.status >= 400) {
@@ -4802,7 +4802,7 @@
           [s, r] = (0, l.useState)(!1);
         return (
           (0, l.useEffect)(() => {
-            !e && window.navigator.userAgent.includes("webmind.appMac") && r(!0);
+            !e && window.navigator.userAgent.includes("TypingMindMac") && r(!0);
           }, []),
           (0, n.jsxs)(d.Z, {
             open: s,
@@ -4819,7 +4819,7 @@
               (0, n.jsx)("div", {
                 className: "my-2 text-center text-xs",
                 children:
-                  "Welcome to using webmind.app on macOS! Please be informed about the following known issues in the macOS app. We are working hard to improve the app every day!",
+                  "Welcome to using TypingMind on macOS! Please be informed about the following known issues in the macOS app. We are working hard to improve the app every day!",
               }),
               (0, n.jsxs)("ul", {
                 className: "my-4 pl-4 list-disc",
@@ -4999,7 +4999,7 @@
                   : e.code) === "invalid_api_key"
               ) {
                 r(i),
-                  window.alert("Endpoint saved! webmind.app will restart now."),
+                  window.alert("Endpoint saved! TypingMind will restart now."),
                   window.location.reload();
                 return;
               }
@@ -5011,7 +5011,7 @@
               return;
             }
             r(i),
-              window.alert("Endpoint saved! webmind.app will restart now."),
+              window.alert("Endpoint saved! TypingMind will restart now."),
               window.location.reload();
           } catch (e) {
             u(te), console.error(e);
@@ -5194,7 +5194,7 @@
             o.setAttribute("href", a),
               o.setAttribute(
                 "download",
-                "webmind.app-chats-".concat(Date.now(), ".json")
+                "typingmind-chats-".concat(Date.now(), ".json")
               ),
               document.body.appendChild(o),
               o.click(),
@@ -5378,7 +5378,7 @@
                     M.join(", ") +
                     ". You now have " +
                     B.join(", ") +
-                    " on this device. webmind.app will restart now."
+                    " on this device. TypingMind will restart now."
                 ),
                 window.location.reload();
             } catch (e) {
@@ -5694,7 +5694,7 @@
                       (0, n.jsx)("div", {
                         className: "text-xs text-gray-500 my-4",
                         children:
-                          "If your chats are not showing up, you can try to recover them here. This will find all of the existing chats available in your local storage and recover them. Usually, you don't need to do this, but in some extreme case where there is a browser bug, or webmind.app's storage is corupted by a other browser extensions, you can try to recover your chats here.",
+                          "If your chats are not showing up, you can try to recover them here. This will find all of the existing chats available in your local storage and recover them. Usually, you don't need to do this, but in some extreme case where there is a browser bug, or TypingMind's storage is corupted by a other browser extensions, you can try to recover your chats here.",
                       }),
                       (0, n.jsx)(ei, {
                         wait: 0,
@@ -6055,7 +6055,7 @@
                 " ",
                 (0, n.jsx)("a", {
                   className: "text-blue-500 dark:text-blue-400 hover:underline",
-                  href: "https://webmind.app/custom",
+                  href: "https://typingmind.com/custom",
                   target: "_blank",
                   children: (0, n.jsx)("b", { children: "Learn more here →" }),
                 }),
@@ -6224,7 +6224,7 @@
                     " or your bank transaction detail to ",
                     (0, n.jsx)("b", { children: "hello@lemonsqueezy.com" }),
                     " and CC ",
-                    (0, n.jsx)("b", { children: "support@webmind.app" }),
+                    (0, n.jsx)("b", { children: "support@typingmind.com" }),
                     " ",
                     ". We will check this for you ASAP.",
                   ],
@@ -6233,7 +6233,7 @@
                   className: "my-4 text-center",
                   children: (0, n.jsx)("a", {
                     className: "text-blue-500 font-semibold hover:underline",
-                    href: "mailto:hello@lemonsqueezy.com?cc=support@webmind.app&subject=Receipt%20and%20License%20Key%20not%20received&body=Hi%20Lemon%20Squeezy%20and%20webmind.app%2C%0D%0A%0D%0AI%20purchased%20a%20license%20key%20from%20webmind.app%20via%20Lemon%20Squeezy%20but%20still%20have%20not%20received%20a%20license%20key%20and%20a%20receipt.%0D%0A%0D%0AMy%20transaction%20ID%20is%3A%20%7B%7Byour%20transaction%20ID%20here%7D%7D%0D%0A%0D%0APlease%20help%20check%20this.%0D%0A%0D%0AThanks",
+                    href: "mailto:hello@lemonsqueezy.com?cc=support@typingmind.com&subject=Receipt%20and%20License%20Key%20not%20received&body=Hi%20Lemon%20Squeezy%20and%20TypingMind%2C%0D%0A%0D%0AI%20purchased%20a%20license%20key%20from%20TypingMind.com%20via%20Lemon%20Squeezy%20but%20still%20have%20not%20received%20a%20license%20key%20and%20a%20receipt.%0D%0A%0D%0AMy%20transaction%20ID%20is%3A%20%7B%7Byour%20transaction%20ID%20here%7D%7D%0D%0A%0D%0APlease%20help%20check%20this.%0D%0A%0D%0AThanks",
                     children:
                       "\uD83D\uDC49 Click here to open your Email client with prefilled content",
                   }),
@@ -6517,7 +6517,7 @@
         let em = async () => {
             if (Z.hosted) return;
             let e = window.location.hostname;
-            if ("www.webmind.app" !== e)
+            if ("www.typingmind.com" !== e)
               try {
                 let e = await fetch("/config.json"),
                   t = await e.json();
@@ -6601,7 +6601,7 @@
               return;
             }
             try {
-              let t = await fetch("https://www.webmind.app/api/license", {
+              let t = await fetch("https://www.typingmind.com/api/license", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ key: e }),

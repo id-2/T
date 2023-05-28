@@ -31,7 +31,7 @@
                 (0, s.jsxs)("li", {
                   className: "",
                   children: [
-                    "Some enhanced features on webmind.app will increase your token usage. You can always turn these features off in the Settings pannel (click the gear icon in the sidebar). The enhanced features include: Chat Title Suggestion, Search Keywords Suggestions, AI Characters, Upload Document, etc. Amount of tokens used depends on the AI character and the length of your document.",
+                    "Some enhanced features on TypingMind will increase your token usage. You can always turn these features off in the Settings pannel (click the gear icon in the sidebar). The enhanced features include: Chat Title Suggestion, Search Keywords Suggestions, AI Characters, Upload Document, etc. Amount of tokens used depends on the AI character and the length of your document.",
                     " ",
                   ],
                 }),
@@ -108,7 +108,7 @@
         {
           question: "Is this app free?",
           answer:
-            "webmind.app is free to use with some basic features. You will need to have a working OpenAI API Key in order to use the app. When you use the API Key, you pay directly to OpenAI for the amount of credits/tokens you use. webmind.app has premium features that can be unlocked with a one-time purchase.",
+            "TypingMind.com is free to use with some basic features. You will need to have a working OpenAI API Key in order to use the app. When you use the API Key, you pay directly to OpenAI for the amount of credits/tokens you use. TypingMind.com has premium features that can be unlocked with a one-time purchase.",
         },
         {
           question: "Where can I get an OpenAI API Key?",
@@ -117,7 +117,7 @@
         },
         {
           question:
-            "Do I need to pay for ChatGPT Plus ($20/month) to use webmind.app?",
+            "Do I need to pay for ChatGPT Plus ($20/month) to use TypingMind.com?",
           answer:
             "No! A ChatGPT Plus subscription is not needed. You just need to have an OpenAI's API Key. You can see more info on how to get one here: https://openai.com/blog/openai-api",
         },
@@ -138,29 +138,29 @@
         },
         {
           question:
-            "Is it ok to give my OpenAI API Key to webmind.app? Does OpenAI allow this use case?",
+            "Is it ok to give my OpenAI API Key to TypingMind? Does OpenAI allow this use case?",
           answer:
-            "Yes. webmind.app only stores your API Key locally and never sends your API Key anywhere. OpenAI allows use cases where the API key is stored locally in the user's device. You can see this official response from OpenAI's staff here: https://community.openai.com/t/openais-bring-your-own-key-policy/14538/4",
+            "Yes. TypingMind only stores your API Key locally and never sends your API Key anywhere. OpenAI allows use cases where the API key is stored locally in the user's device. You can see this official response from OpenAI's staff here: https://community.openai.com/t/openais-bring-your-own-key-policy/14538/4",
         },
         {
           question: "Is my API Key encrypted in local storage?",
           answer:
-            'webmind.app offers additional encryption for your API Key. You can enable encryption with a password by clicking the "OpenAI API Key" button in the sidebar and selecting "Encrypt API key...". Your API Key will be encrypted using the AES algorithm provided by the open-source CryptoJS library (https://github.com/brix/crypto-js). webmind.app only provides an encryption feature for your API key. Chat messages, prompts, AI characters, and other elements are stored using the standard local storage of your browser, which may or may not include encryption, depending on your browser. The encryption process are done entirely locally on your device, there is no backend server. If you use webmind.app on multiple devices, you will need to encrypt your API key on all of them, you can also set different passwords on different devices.',
+            'TypingMind offers additional encryption for your API Key. You can enable encryption with a password by clicking the "OpenAI API Key" button in the sidebar and selecting "Encrypt API key...". Your API Key will be encrypted using the AES algorithm provided by the open-source CryptoJS library (https://github.com/brix/crypto-js). TypingMind only provides an encryption feature for your API key. Chat messages, prompts, AI characters, and other elements are stored using the standard local storage of your browser, which may or may not include encryption, depending on your browser. The encryption process are done entirely locally on your device, there is no backend server. If you use TypingMind on multiple devices, you will need to encrypt your API key on all of them, you can also set different passwords on different devices.',
         },
         {
           question:
-            "What's the difference between ChatGPT Plus and ChatGPT API via webmind.app?",
+            "What's the difference between ChatGPT Plus and ChatGPT API via TypingMind?",
           answer:
             "Under the hood, ChatGPT Plus and ChatGPT API offer the same model and the same quality. You can view this on their official announcement here: https://platform.openai.com/docs/guides/chat. The initial system instruction can be a little bit different, which can be configured to make the AI output different messages from time to time.",
         },
         {
-          question: "Can I use GPT-4 in webmind.app?",
+          question: "Can I use GPT-4 in TypingMind?",
           answer:
-            "webmind.app does not give you access to the GPT-4 model automatically. If you have access to the GPT-4 model via API, you can use it on webmind.app. Note that GPT-4 API access is not the same as the ChatGPT Plus subscription. To get access to the GPT-4 API, you can sign-up for the GPT-4 API access here: https://openai.com/waitlist/gpt-4-api.",
+            "TypingMind does not give you access to the GPT-4 model automatically. If you have access to the GPT-4 model via API, you can use it on TypingMind. Note that GPT-4 API access is not the same as the ChatGPT Plus subscription. To get access to the GPT-4 API, you can sign-up for the GPT-4 API access here: https://openai.com/waitlist/gpt-4-api.",
         },
         {
           question:
-            "I have ChatGPT Plus, will it cost me more to use ChatGPT API via webmind.app?",
+            "I have ChatGPT Plus, will it cost me more to use ChatGPT API via TypingMind?",
           answer:
             "The ChatGPT API costs soooooo little you won't even notice it. Typical chat conversation is about 1000 characters, which costs ~$0.001. That's less than a cent. You can have thousands of chats and it will only costs you like $1. See official pricing here: https://openai.com/pricing#language-models",
         },
@@ -172,7 +172,7 @@
         {
           question: "How can I sync my chat conversations across devices?",
           answer:
-            "You can export the chats and import it on another device. You can also enable webmind.app Cloud for seamless syncing across devices. webmind.app Cloud is a free service provided to all webmind.app users. You can enable it by clicking the cloud icon at the bottom of the sidebar.",
+            "You can export the chats and import it on another device. You can also enable TypingMind Cloud for seamless syncing across devices. TypingMind Cloud is a free service provided to all TypingMind users. You can enable it by clicking the cloud icon at the bottom of the sidebar.",
         },
         {
           question: "Is it really faster than ChatGPT?",
@@ -181,9 +181,9 @@
         },
         {
           question:
-            "Why does sometimes webmind.app responds differently than the default OpenAI's ChatGPT event with the same prompt?",
+            "Why does sometimes TypingMind responds differently than the default OpenAI's ChatGPT event with the same prompt?",
           answer:
-            "webmind.app uses the same underlying model as OpenAI's default chat app. For the same prompt, it can produce different responses each time. The default chat app by OpenAI may also have some initial prompt settings that are different from webmind.app. If you don't get the response you expects, try \"Re-generate Response\" or tweaking the prompt.",
+            "TypingMind uses the same underlying model as OpenAI's default chat app. For the same prompt, it can produce different responses each time. The default chat app by OpenAI may also have some initial prompt settings that are different from TypingMind. If you don't get the response you expects, try \"Re-generate Response\" or tweaking the prompt.",
         },
         {
           question: "Can I self-host it?",
@@ -210,7 +210,7 @@
           question:
             "Is the macOS app a native app? How do I receive updates with the macOS app?",
           answer:
-            "The macOS app is a simple native app with a webview that runs the latest version of webmind.app on your dock. It's only ~5MB in size, load super fast, and can update itself everytime you open it. You can also check for updates manually in the app's menu.",
+            "The macOS app is a simple native app with a webview that runs the latest version of TypingMind on your dock. It's only ~5MB in size, load super fast, and can update itself everytime you open it. You can also check for updates manually in the app's menu.",
         },
         {
           question: "Is there a Windows/Linux app?",
@@ -219,12 +219,12 @@
         {
           question: "Is there an Android/iOS/iPad app?",
           answer:
-            "No, but you can add webmind.app to your home screen. It works exaclty like an app!",
+            "No, but you can add typingmind.com to your home screen. It works exaclty like an app!",
         },
         {
           question: "License Key vs. API Key",
           answer:
-            "License Key is used to activate the premium features of webmind.app. API Key refers to OpenAI ChatGPT API Key, and is used to connect to OpenAI's API to interact with ChatGPT. You need an API Key to use the app. The License Key is only needed if you want to use the premium features.",
+            "License Key is used to activate the premium features of TypingMind.com. API Key refers to OpenAI ChatGPT API Key, and is used to connect to OpenAI's API to interact with ChatGPT. You need an API Key to use the app. The License Key is only needed if you want to use the premium features.",
         },
         {
           question: "What are the premium features?",
@@ -396,13 +396,13 @@
           } = e,
           c = i
             ? i.brand + " – " + i.tagline
-            : "webmind.app — A better UI for ChatGPT",
+            : "TypingMind — A better UI for ChatGPT",
           l = (n ? "(*) " : "") + (t || c),
           h = i
             ? i.hostname
               ? "https://" + i.hostname + "/"
               : "https://".concat(i.subdomain, ".typingcloud.com/")
-            : "https://www.webmind.app",
+            : "https://www.typingmind.com",
           u =
             i &&
             ""
@@ -414,7 +414,7 @@
             r ||
             (null == i ? void 0 : i.posterURL) ||
             u ||
-            "https://www.webmind.app/poster-2.png",
+            "https://www.typingmind.com/poster-2.png",
           p = (null == i ? void 0 : i.description) || o,
           y = null == i ? void 0 : i.logoURL;
         return (0, s.jsxs)(a(), {
@@ -534,7 +534,7 @@
                 (0, s.jsxs)("li", {
                   className: "",
                   children: [
-                    "Some enhanced features on webmind.app will increase your token usage. You can always turn these features off in the Settings pannel (click the gear icon in the sidebar). The enhanced features include: Chat Title Suggestion, Search Keywords Suggestions, AI Characters, Upload Document, etc. Amount of tokens used depends on the AI character and the length of your document.",
+                    "Some enhanced features on TypingMind will increase your token usage. You can always turn these features off in the Settings pannel (click the gear icon in the sidebar). The enhanced features include: Chat Title Suggestion, Search Keywords Suggestions, AI Characters, Upload Document, etc. Amount of tokens used depends on the AI character and the length of your document.",
                     " ",
                   ],
                 }),
@@ -573,12 +573,12 @@
         {
           question: "How Web Search works?",
           answer:
-            "When you enable Web Search, webmind.app will add a short instructions to the OpenAI model to teach the model how to perform a search query using the selected search engine (which is Google by default). The model will then attempt to run a search command only when necessary and use the search result to answer your question.",
+            "When you enable Web Search, TypingMind will add a short instructions to the OpenAI model to teach the model how to perform a search query using the selected search engine (which is Google by default). The model will then attempt to run a search command only when necessary and use the search result to answer your question.",
         },
         {
-          question: "How does webmind.app execute the search?",
+          question: "How does TypingMind execute the search?",
           answer:
-            "webmind.app will use the search engine's API to execute the search query. The search requests are sent directly from your browser to the search API without any intermediate servers. Your privacy is 100% protected. No one can see your search query and search result except you and the search engine itself.",
+            "TypingMind will use the search engine's API to execute the search query. The search requests are sent directly from your browser to the search API without any intermediate servers. Your privacy is 100% protected. No one can see your search query and search result except you and the search engine itself.",
         },
         {
           question: "What about my privacy? Who can see my search query?",
@@ -588,7 +588,7 @@
         {
           question: "What search engines are supported?",
           answer:
-            "webmind.app currently only supports Google search engine. We will add more search engines in the future.",
+            "TypingMind currently only supports Google search engine. We will add more search engines in the future.",
         },
         {
           question: "Where can I get the search engine API Key?",

@@ -173,9 +173,9 @@
       (t.exports = function (t, e) {
         return U[t] || (U[t] = void 0 !== e ? e : {});
       })("versions", []).push({
-        version: "1.0.0",
+        version: "3.6.5",
         mode: "global",
-        copyright: "© 2023 webmind",
+        copyright: "© 2020 Denis Pushkarev (zloirock.ru)",
       });
     }),
     W = 0,

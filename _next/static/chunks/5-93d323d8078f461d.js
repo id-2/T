@@ -317,13 +317,13 @@
           } = e,
           u = i
             ? i.brand + " – " + i.tagline
-            : "webmind.app — A better UI for ChatGPT",
+            : "TypingMind — A better UI for ChatGPT",
           c = (n ? "(*) " : "") + (t || u),
           l = i
             ? i.hostname
               ? "https://" + i.hostname + "/"
               : "https://".concat(i.subdomain, ".typingcloud.com/")
-            : "https://www.webmind.app",
+            : "https://www.typingmind.com",
           h =
             i &&
             ""
@@ -335,7 +335,7 @@
             r ||
             (null == i ? void 0 : i.posterURL) ||
             h ||
-            "https://www.webmind.app/poster-2.png",
+            "https://www.typingmind.com/poster-2.png",
           m = (null == i ? void 0 : i.description) || o,
           y = null == i ? void 0 : i.logoURL;
         return (0, s.jsxs)(a(), {
@@ -427,13 +427,13 @@
           {
             question: "What is Typing Mind Custom Deployment?",
             answer:
-              "Typing Mind Custom Deployment is a custom-branded, cloud-hosted version of Typing Mind. You can create and customize a Chat instance that works exactly like webmind.app under your own domain. You can offer the chat interface to your team members, community, or customers.",
+              "Typing Mind Custom Deployment is a custom-branded, cloud-hosted version of Typing Mind. You can create and customize a Chat instance that works exactly like TypingMind.com under your own domain. You can offer the chat interface to your team members, community, or customers.",
           },
           {
             question:
               "What features are available in the Early Access version?",
             answer:
-              "There are two sets of features. The Users Features (for your users): complete fully-featured chat experience like what you see on webmind.app. Admin Features: currently you can only customize a few settings and branding options. All the available customizable settings are listed in the Admin Panel. We'll work on adding more customizations soon.",
+              "There are two sets of features. The Users Features (for your users): complete fully-featured chat experience like what you see on TypingMind.com. Admin Features: currently you can only customize a few settings and branding options. All the available customizable settings are listed in the Admin Panel. We'll work on adding more customizations soon.",
           },
           {
             question: "How to add my own custom domain?",
@@ -474,7 +474,7 @@
           {
             question: 'What is a "Chat instance" or an "instance"?',
             answer:
-              'A "Chat instance" or an "instance" is a chat interface you created when sign up for a Custom Deployment on webmind.app. You can create multiple chat instances for multiple purposes. Each Chat instance is tied to one OpenAI key and run on one domain.',
+              'A "Chat instance" or an "instance" is a chat interface you created when sign up for a Custom Deployment on TypingMind. You can create multiple chat instances for multiple purposes. Each Chat instance is tied to one OpenAI key and run on one domain.',
           },
           {
             question: "Do I need an OpenAI API key to use this?",
@@ -526,13 +526,13 @@
             question:
               "Can I customize the Default System Instruction, Prompt Library, AI Characters, etc?",
             answer:
-              "Yes, but not yet. We're working hard to make all of these configurable in the admin panel. Make sure to check the Custom Deployment page at https://webmind.app/custom and the Admin panel to see the latest feature updates!",
+              "Yes, but not yet. We're working hard to make all of these configurable in the admin panel. Make sure to check the Custom Deployment page at https://typingmind.com/custom and the Admin panel to see the latest feature updates!",
           },
           {
             question:
               "What are the features my users can use in the chat interface?",
             answer:
-              "Your chat interface will have exactly the same features as on webmind.app. Updates, new features, and bug fixes on webmind.app are also available on your chat instance at the same time. ",
+              "Your chat interface will have exactly the same features as on TypingMind.com. Updates, new features, and bug fixes on TypingMind.com are also available on your chat instance at the same time. ",
           },
           {
             question:
@@ -574,15 +574,15 @@
           },
           {
             question:
-              "I've already bought the Team License (10 Users) or the Team License (50 users) on webmind.app. Can I use it on my Custom Deployment?",
+              "I've already bought the Team License (10 Users) or the Team License (50 users) on TypingMind.com. Can I use it on my Custom Deployment?",
             answer:
-              "Yes. We allow you to convert your Team License to the Custom Deployment version with the same amount of users. You will still have to pay the fixed subscription cost. Note that after you convert the Team License, the License Key will no longer work on webmind.app and your users/team will have to switch to using your chat instance instead. To convert your Team License, please contact us at support@webmind.app.",
+              "Yes. We allow you to convert your Team License to the Custom Deployment version with the same amount of users. You will still have to pay the fixed subscription cost. Note that after you convert the Team License, the License Key will no longer work on TypingMind.com and your users/team will have to switch to using your chat instance instead. To convert your Team License, please contact us at support@typingmind.com.",
           },
           {
             question:
               "What's the different between Custom Deployment, Self-host static app, and the Custom Branding?",
             answer:
-              "The main different is that in the Custom Deployment, your users don't need to enter an OpenAI API Key and License Key, their chats will use your API key and you will pay for your users' usage. In the self-host static app (and the custom branding addon), you simply host a 1:1 copy of webmind.app, and your users still have to buy/enter a License Key on their own.",
+              "The main different is that in the Custom Deployment, your users don't need to enter an OpenAI API Key and License Key, their chats will use your API key and you will pay for your users' usage. In the self-host static app (and the custom branding addon), you simply host a 1:1 copy of TypingMind, and your users still have to buy/enter a License Key on their own.",
           },
           {
             question: "Is the system prompt going to be visible to users?",
@@ -627,7 +627,7 @@
             question:
               "Where can I find the Terms of Service and Privacy Policy?",
             answer:
-              "Terms of Service: https://webmind.app/terms#custom-deployment ; Privacy Policy: https://webmind.app/privacy#custom-deployment",
+              "Terms of Service: https://typingmind.com/terms#custom-deployment ; Privacy Policy: https://typingmind.com/privacy#custom-deployment",
           },
           {
             question:
@@ -637,14 +637,14 @@
           },
           {
             question: "How can I contact customer support?",
-            answer: "Please send an email to support@webmind.app",
+            answer: "Please send an email to support@typingmind.com",
           },
           { question: "", answer: "" },
         ],
         o =
-          '\nGlossary: "The product" means the webmind.app Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.\nWhen you create a new chat instance on https://webmind.app/custom, we will collect a few information about you, including your email address, your name, and the name of your chat instance. We use this information to send you an email with the link to your chat instance.\nEverything we collect is stored securely on our server, we never share your information with anyone else or any 3rd party that we are using. When you use the product, if we ever need to share your information with 3rd party, for example, to link your billing info with your chat instance, we will ask for your explicit permission first (by checking a "I understand" checkbox).\nWe use lemonsqueezy.com to process payments for our premium features. We don\'t store any of your payment data.\nWe use Vercel.com to host your chat instance.\nThe chat instance you created will be used by your users/team/community. When your users login to the chat instance, we will collect their email address to verify their identity. We use this information to send them an email with the login link. We will also collect their name, avatar, and other information only if they provide to us. We use this information to display their name and avatar on the chat instance.\nWhen you setup your chat instance, we will collect your OpenAI API Key. We use your API Key to connect to OpenAI API to generate the AI chat responses when your users use your AI chat instance. We will never share your OpenAI API Key with anyone else or any 3rd party services we use. Your users will not see your OpenAI API key. We do not use your OpenAI Key for any other purposes.\nWhen your users login to your chat instance, we will send them an email with the login code. The email will be sent from "hosted@webmind.app", with your name and email address will be shown to the users as the "Reply-to" address. This is to help the users recogine you and contact support if needed. Noted that only people who are explicit added by you in the Admin Panel can login.\nWhen your users chat via your chat instance, their chat history and messages are passed through and stored on our server. We keep the chat history and messages for 30 days. You can turn off the chat history and messages logging or extend the store duration in the Admin Panel. Note that even if the chat history and messages logging are turned off, the messages are still passing through our server and will be kept in the server\'s memory in a short amount of time (typically for the duration of the request or the streaming duration). This is necessary to pass the messages through our server, so we can avoid exposing your OpenAI API key to the end users. We use Vercel.com to host our server where the messages are passed through.\nYour users\' chat history data, custom prompts, libraries, bookmarks are stored on their local device when they use your chat instance. Your users can choose to setup backup & sync using various services we offer in the chat interface, including webmind.app Cloud (Backup/Sync/Share).\nYour users cannot see each other data and chat history.\n',
+          '\nGlossary: "The product" means the TypingMind Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.\nWhen you create a new chat instance on https://typingmind.com/custom, we will collect a few information about you, including your email address, your name, and the name of your chat instance. We use this information to send you an email with the link to your chat instance.\nEverything we collect is stored securely on our server, we never share your information with anyone else or any 3rd party that we are using. When you use the product, if we ever need to share your information with 3rd party, for example, to link your billing info with your chat instance, we will ask for your explicit permission first (by checking a "I understand" checkbox).\nWe use lemonsqueezy.com to process payments for our premium features. We don\'t store any of your payment data.\nWe use Vercel.com to host your chat instance.\nThe chat instance you created will be used by your users/team/community. When your users login to the chat instance, we will collect their email address to verify their identity. We use this information to send them an email with the login link. We will also collect their name, avatar, and other information only if they provide to us. We use this information to display their name and avatar on the chat instance.\nWhen you setup your chat instance, we will collect your OpenAI API Key. We use your API Key to connect to OpenAI API to generate the AI chat responses when your users use your AI chat instance. We will never share your OpenAI API Key with anyone else or any 3rd party services we use. Your users will not see your OpenAI API key. We do not use your OpenAI Key for any other purposes.\nWhen your users login to your chat instance, we will send them an email with the login code. The email will be sent from "hosted@typingmind.com", with your name and email address will be shown to the users as the "Reply-to" address. This is to help the users recogine you and contact support if needed. Noted that only people who are explicit added by you in the Admin Panel can login.\nWhen your users chat via your chat instance, their chat history and messages are passed through and stored on our server. We keep the chat history and messages for 30 days. You can turn off the chat history and messages logging or extend the store duration in the Admin Panel. Note that even if the chat history and messages logging are turned off, the messages are still passing through our server and will be kept in the server\'s memory in a short amount of time (typically for the duration of the request or the streaming duration). This is necessary to pass the messages through our server, so we can avoid exposing your OpenAI API key to the end users. We use Vercel.com to host our server where the messages are passed through.\nYour users\' chat history data, custom prompts, libraries, bookmarks are stored on their local device when they use your chat instance. Your users can choose to setup backup & sync using various services we offer in the chat interface, including TypingMind Cloud (Backup/Sync/Share).\nYour users cannot see each other data and chat history.\n',
         a =
-          '\nGlossary: "The product" means the webmind.app Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.\nAll of your purchases are refundable within 14 days.\nThe price is a fixed subscription cost to maintain the hosted version and comes with 5 users included. You can add new users at a fixed price per user one-time payment of license fee. The exact price at the current time is available at https://webmind.app/custom.\nWhen you subscribe to the Custom Deployment, including the Early Access version, you will be charged for the first month immediately. You will be charged for the next month on the same day of the month.\nBy subscribing to the Custom Deployment, including the Early Access version, you understand that you are buying the product as-is, with all the features that are available at its current state. You understand that the product is still in development and all of its features may change in the future, that the product may contain bugs and errors and you agree to report any bugs and errors to us.\nAfter you add your users to your chat instance from the Admin Panel, your users will be able to use your chat instance like they would on webmind.app. Each user have their own chat history, custom prompts, AI characters, bookmarks saved in their own local devices. They can login to your chat inscance on any device, but they will need to setup backup/sync to cloud to sync their data across devices using service integration we have in the chat interface, including webmind.app Cloud. Note that your subscription does not include with webmind.app Cloud service. We offer webmind.app Cloud for everyone to use for free with the limit of 10MB of data per user. You can also use your own cloud service to sync your users\' data.\nAll of the advertised future features or roadmap items on the product marketing page may or may not make it to the final version of the product. When subscribe to a paid plan early, you have the benefit of getting the product at a lower price and you agree to accept the product as-is.\nWe will increase the price of the product in the future when it has more features and offer more services. Most of the time, we will only change the price for new customers and will grandfather all the existing customers at their secured price. However, in some extreme cases, we may need to change the price for all customers.\nWe will try to keep the hosted version of the product up and running 24/7. However, we cannot guarantee that the product will be available 100% of the time. We will try to notify you in advance if we need to take the product down for maintenance or other reasons.\n';
+          '\nGlossary: "The product" means the TypingMind Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.\nAll of your purchases are refundable within 14 days.\nThe price is a fixed subscription cost to maintain the hosted version and comes with 5 users included. You can add new users at a fixed price per user one-time payment of license fee. The exact price at the current time is available at https://typingmind.com/custom.\nWhen you subscribe to the Custom Deployment, including the Early Access version, you will be charged for the first month immediately. You will be charged for the next month on the same day of the month.\nBy subscribing to the Custom Deployment, including the Early Access version, you understand that you are buying the product as-is, with all the features that are available at its current state. You understand that the product is still in development and all of its features may change in the future, that the product may contain bugs and errors and you agree to report any bugs and errors to us.\nAfter you add your users to your chat instance from the Admin Panel, your users will be able to use your chat instance like they would on TypingMind.com. Each user have their own chat history, custom prompts, AI characters, bookmarks saved in their own local devices. They can login to your chat inscance on any device, but they will need to setup backup/sync to cloud to sync their data across devices using service integration we have in the chat interface, including TypingMind Cloud. Note that your subscription does not include with TypingMind Cloud service. We offer TypingMind Cloud for everyone to use for free with the limit of 10MB of data per user. You can also use your own cloud service to sync your users\' data.\nAll of the advertised future features or roadmap items on the product marketing page may or may not make it to the final version of the product. When subscribe to a paid plan early, you have the benefit of getting the product at a lower price and you agree to accept the product as-is.\nWe will increase the price of the product in the future when it has more features and offer more services. Most of the time, we will only change the price for new customers and will grandfather all the existing customers at their secured price. However, in some extreme cases, we may need to change the price for all customers.\nWe will try to keep the hosted version of the product up and running 24/7. However, we cannot guarantee that the product will be available 100% of the time. We will try to notify you in advance if we need to take the product down for maintenance or other reasons.\n';
     },
   },
 ]);

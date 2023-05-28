@@ -31,13 +31,13 @@
           } = e,
           l = a
             ? a.brand + " – " + a.tagline
-            : "webmind.app — A better UI for ChatGPT",
+            : "TypingMind — A better UI for ChatGPT",
           c = (n ? "(*) " : "") + (t || l),
           u = a
             ? a.hostname
               ? "https://" + a.hostname + "/"
               : "https://".concat(a.subdomain, ".typingcloud.com/")
-            : "https://www.webmind.app",
+            : "https://www.typingmind.com",
           d =
             a &&
             ""
@@ -49,7 +49,7 @@
             r ||
             (null == a ? void 0 : a.posterURL) ||
             d ||
-            "https://www.webmind.app/poster-2.png",
+            "https://www.typingmind.com/poster-2.png",
           y = (null == a ? void 0 : a.description) || i,
           p = null == a ? void 0 : a.logoURL;
         return (0, o.jsxs)(s(), {
@@ -135,7 +135,7 @@
         });
       var o = n(85893),
         i = n(51448);
-      let s = "webmind.app";
+      let s = "typingmind.com";
       function a() {
         return (0, o.jsx)(o.Fragment, {
           children: (0, o.jsxs)("div", {
@@ -152,7 +152,7 @@
                       children: (0, o.jsx)("a", {
                         href: "/",
                         className: "text-blue-500 hover:underline",
-                        children: "Go back to webmind.app",
+                        children: "Go back to TypingMind.com",
                       }),
                     }),
                     (0, o.jsx)("h1", {
@@ -165,7 +165,7 @@
                         (0, o.jsx)("h2", {
                           className: "my-4 text-2xl font-bold scroll-mt-32",
                           children:
-                            "For webmind.app and Self-host Static App",
+                            "For TypingMind.com and Self-host Static App",
                         }),
                         (0, o.jsxs)("ul", {
                           className: "list-disc pl-4",
@@ -176,7 +176,7 @@
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "webmind.app is free while in beta. If you buy an early license key, you can save the license key in the app. After the app is out of beta, it will automatically check for the validity of the license key.",
+                                "typingmind.com is free while in beta. If you buy an early license key, you can save the license key in the app. After the app is out of beta, it will automatically check for the validity of the license key.",
                             }),
                             (0, o.jsx)("li", {
                               children:
@@ -200,58 +200,58 @@
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "webmind.app's features can change in the future, including adding and removing features, restricting the list of features available in the free/paid plan, open source some parts or all of the app source code. In such cases, you will not receive a refund of your purchase (unless your purchase is still within the 14-day refund period).",
+                                "Typingmind.com's features can change in the future, including adding and removing features, restricting the list of features available in the free/paid plan, open source some parts or all of the app source code. In such cases, you will not receive a refund of your purchase (unless your purchase is still within the 14-day refund period).",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "webmind.app's service availability is not guaranteed. We will try our best to keep the service up and running, but we cannot guarantee the availability of the service. In the event of natural disasters, change of owners, dependency service outages, and other reasons that make us unable to keep the service running, you will not be refunded (unless your purchase is still within the 14-day refund period). You can look into self-hosting the app on your own server to have full control of the service availability.",
+                                "Typingmind.com's service availability is not guaranteed. We will try our best to keep the service up and running, but we cannot guarantee the availability of the service. In the event of natural disasters, change of owners, dependency service outages, and other reasons that make us unable to keep the service running, you will not be refunded (unless your purchase is still within the 14-day refund period). You can look into self-hosting the app on your own server to have full control of the service availability.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "For legal purposes, webmind.app is a product of Devuap LLC, registered at the address: Ste 1200, 1309 Coffeen Avenue, Sheridan, WY, Sheridan, US, 82801.",
+                                "For legal purposes, TypingMind.com is a product of Devuap LLC, registered at the address: Ste 1200, 1309 Coffeen Avenue, Sheridan, WY, Sheridan, US, 82801.",
                             }),
                           ],
                         }),
                         (0, o.jsx)("h2", {
                           className: "my-4 text-2xl font-bold scroll-mt-32",
-                          children: "For webmind.app Cloud",
+                          children: "For TypingMind Cloud",
                         }),
                         (0, o.jsxs)("ul", {
                           className: "list-disc pl-4",
                           children: [
                             (0, o.jsx)("li", {
                               children:
-                                "webmind.app Cloud is an opt-in only service we provide to help you conveniently share your chat conversation with friends via a link that is publicly accessible from the internet. Other features include sync chat history between devices and backup chat history.",
+                                "TypingMind Cloud is an opt-in only service we provide to help you conveniently share your chat conversation with friends via a link that is publicly accessible from the internet. Other features include sync chat history between devices and backup chat history.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "webmind.app Cloud is integrated to webmind.app and will only work when you explicitly use the Share/Sync/Backup feature, and pick webmind.app Cloud as the Share/Sync/Backup option. You will be asked to opt-in to webmind.app Cloud and agree with its terms and conditions.",
+                                "TypingMind Cloud is integrated to TypingMind.com and will only work when you explicitly use the Share/Sync/Backup feature, and pick TypingMind Cloud as the Share/Sync/Backup option. You will be asked to opt-in to TypingMind Cloud and agree with its terms and conditions.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "webmind.app Cloud is provided for free for everyone. We don't guarantee the availability of webmind.app Cloud. We don't guarantee your data will never be lost. We'll try our best to keep webmind.app Cloud alive and available at all time. You are encouraged to backup your data to multiple places to avoid data lost.",
+                                "TypingMind Cloud is provided for free for everyone. We don't guarantee the availability of TypingMind Cloud. We don't guarantee your data will never be lost. We'll try our best to keep TypingMind Cloud alive and available at all time. You are encouraged to backup your data to multiple places to avoid data lost.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "If you have a valid webmind.app License Key, you can use up to 10MB of storage on webmind.app Cloud. Additional storage can be purchased on demand.",
+                                "If you have a valid TypingMind License Key, you can use up to 10MB of storage on TypingMind Cloud. Additional storage can be purchased on demand.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "Note that you can use other services to share and sync your chat. webmind.app Cloud is just one of the options and is not required to use webmind.app.",
+                                "Note that you can use other services to share and sync your chat. TypingMind Cloud is just one of the options and is not required to use TypingMind.com.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "In the self-host version, you can still use webmind.app Cloud as an option to Share/Sync/Backup your chats. When you choose webmind.app Cloud as the Share/Sync/Backup option, your chats will be sent to cloud.webmind.app, as that is where the could service is hosted.",
+                                "In the self-host version, you can still use TypingMind Cloud as an option to Share/Sync/Backup your chats. When you choose TypingMind Cloud as the Share/Sync/Backup option, your chats will be sent to cloud.typingmind.com, as that is where the could service is hosted.",
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "The webmind.app Cloud service itself is not included in the self-host version.",
+                                "The TypingMind Cloud service itself is not included in the self-host version.",
                             }),
                           ],
                         }),
                         (0, o.jsx)("h2", {
                           className: "my-4 text-2xl font-bold scroll-mt-32",
-                          children: "For webmind.app Custom Branding",
+                          children: "For TypingMind Custom Branding",
                         }),
                         (0, o.jsxs)("ul", {
                           className: "list-decimal space-y-2 pl-4",
@@ -261,9 +261,9 @@
                                 "Custom Branding package only works on",
                                 " ",
                                 (0, o.jsx)("b", {
-                                  children: "self-hosted version of webmind.app",
+                                  children: "self-hosted version of TypingMind",
                                 }),
-                                ". You cannot add custom branding on the webmind.app website.",
+                                ". You cannot add custom branding on the TypingMind.com website.",
                               ],
                             }),
                             (0, o.jsxs)("li", {
@@ -276,7 +276,7 @@
                                   rel: "noreferrer noopener",
                                   className: "text-blue-500 hover:underline",
                                   children: (0, o.jsx)("b", {
-                                    children: "webmind.app Self-host Package",
+                                    children: "TypingMind Self-host Package",
                                   }),
                                 }),
                                 ". The ",
@@ -301,18 +301,18 @@
                                   rel: "noreferrer noopener",
                                   className: "text-blue-500 hover:underline",
                                   children: (0, o.jsx)("b", {
-                                    children: "webmind.app License Key",
+                                    children: "TypingMind License Key",
                                   }),
                                 }),
                                 " ",
                                 "and an ",
                                 (0, o.jsx)("b", { children: "OpenAI API Key" }),
-                                " to use the app. This is the same as in the online version at webmind.app.",
+                                " to use the app. This is the same as in the online version at TypingMind.com.",
                               ],
                             }),
                             (0, o.jsxs)("li", {
                               children: [
-                                "If you plan to let your customers/clients/team members use your self-host version, they will all need to buy a License Key from webmind.app (or you can buy a",
+                                "If you plan to let your customers/clients/team members use your self-host version, they will all need to buy a License Key from TypingMind (or you can buy a",
                                 " ",
                                 (0, o.jsx)("a", {
                                   target: "_blank",
@@ -338,11 +338,11 @@
                                 "You can view a demo custom branding version here:",
                                 " ",
                                 (0, o.jsx)("a", {
-                                  href: "https://white-label-demo.webmind.app/",
+                                  href: "https://white-label-demo.typingmind.com/",
                                   target: "_blank",
                                   rel: "noreferrer noopener",
                                   className: "text-blue-500 hover:underline",
-                                  children: "white-label-demo.webmind.app",
+                                  children: "white-label-demo.typingmind.com",
                                 }),
                                 ".",
                               ],
@@ -352,7 +352,7 @@
                                 "If you want to see what's the set-up process looks like, go to",
                                 " ",
                                 (0, o.jsx)("a", {
-                                  href: "https://www.webmind.app/create-self-hosted",
+                                  href: "https://www.typingmind.com/create-self-hosted",
                                   target: "_blank",
                                   rel: "noreferrer noopener",
                                   className: "text-blue-500 hover:underline",
@@ -367,19 +367,19 @@
                         (0, o.jsx)("h2", {
                           className: "my-4 text-2xl font-bold scroll-mt-32",
                           id: "custom-deployment",
-                          children: "For webmind.app Custom Deployment:",
+                          children: "For TypingMind Custom Deployment:",
                         }),
                         (0, o.jsx)("p", {
                           className: "my-2 italic",
                           children:
-                            "Note: this section only apply to you if you use the webmind.app Custom Deployment at https://webmind.app/custom.",
+                            "Note: this section only apply to you if you use the TypingMind Custom Deployment at https://typingmind.com/custom.",
                         }),
                         (0, o.jsxs)("ul", {
                           className: "list-disc pl-4",
                           children: [
                             (0, o.jsx)("li", {
                               children:
-                                'Glossary: "The product" means the webmind.app Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.',
+                                'Glossary: "The product" means the TypingMind Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.',
                             }),
                             (0, o.jsx)("li", {
                               children:
@@ -387,7 +387,7 @@
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "The price is a fixed subscription cost to maintain the hosted version and comes with 5 users included. You can add new users at a fixed price per user one-time payment of license fee. The exact price at the current time is available at https://webmind.app/custom.",
+                                "The price is a fixed subscription cost to maintain the hosted version and comes with 5 users included. You can add new users at a fixed price per user one-time payment of license fee. The exact price at the current time is available at https://typingmind.com/custom.",
                             }),
                             (0, o.jsx)("li", {
                               children:
@@ -399,7 +399,7 @@
                             }),
                             (0, o.jsx)("li", {
                               children:
-                                "After you add your users to your chat instance from the Admin Panel, your users will be able to use your chat instance like they would on webmind.app. Each user have their own chat history, custom prompts, AI characters, bookmarks saved in their own local devices. They can login to your chat inscance on any device, but they will need to setup backup/sync to cloud to sync their data across devices using service integration we have in the chat interface, including webmind.app Cloud. Note that your subscription does not include with webmind.app Cloud service. We offer webmind.app Cloud for everyone to use for free with the limit of 10MB of data per user. You can also use your own cloud service to sync your users' data.",
+                                "After you add your users to your chat instance from the Admin Panel, your users will be able to use your chat instance like they would on TypingMind.com. Each user have their own chat history, custom prompts, AI characters, bookmarks saved in their own local devices. They can login to your chat inscance on any device, but they will need to setup backup/sync to cloud to sync their data across devices using service integration we have in the chat interface, including TypingMind Cloud. Note that your subscription does not include with TypingMind Cloud service. We offer TypingMind Cloud for everyone to use for free with the limit of 10MB of data per user. You can also use your own cloud service to sync your users' data.",
                             }),
                             (0, o.jsx)("li", {
                               children:

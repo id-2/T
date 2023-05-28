@@ -31,13 +31,13 @@
           } = e,
           c = a
             ? a.brand + " – " + a.tagline
-            : "webmind.app — A better UI for ChatGPT",
+            : "TypingMind — A better UI for ChatGPT",
           l = (n ? "(*) " : "") + (t || c),
           h = a
             ? a.hostname
               ? "https://" + a.hostname + "/"
               : "https://".concat(a.subdomain, ".typingcloud.com/")
-            : "https://www.webmind.app",
+            : "https://www.typingmind.com",
           d =
             a &&
             ""
@@ -49,7 +49,7 @@
             r ||
             (null == a ? void 0 : a.posterURL) ||
             d ||
-            "https://www.webmind.app/poster-2.png",
+            "https://www.typingmind.com/poster-2.png",
           y = (null == a ? void 0 : a.description) || o,
           p = null == a ? void 0 : a.logoURL;
         return (0, s.jsxs)(i(), {
@@ -135,7 +135,7 @@
         });
       var s = n(85893),
         o = n(51448);
-      let i = "webmind.app";
+      let i = "typingmind.com";
       function a() {
         return (0, s.jsx)(s.Fragment, {
           children: (0, s.jsxs)("div", {
@@ -152,7 +152,7 @@
                       children: (0, s.jsx)("a", {
                         href: "/",
                         className: "text-blue-500 hover:underline",
-                        children: "Go back to webmind.app",
+                        children: "Go back to TypingMind.com",
                       }),
                     }),
                     (0, s.jsx)("h1", {
@@ -164,7 +164,7 @@
                       children: [
                         (0, s.jsx)("h2", {
                           className: "my-4 text-2xl font-bold",
-                          children: "For webmind.app Static Chat App",
+                          children: "For TypingMind.com Static Chat App",
                         }),
                         (0, s.jsx)("h3", {
                           className: "text-xl my-4",
@@ -194,7 +194,7 @@
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "There is strictly no external JavaScript run on webmind.app.",
+                                "There is strictly no external JavaScript run on TypingMind.com.",
                             }),
                           ],
                         }),
@@ -212,22 +212,22 @@
                           children: [
                             (0, s.jsx)("li", {
                               children:
-                                "When you purchase a license key, we store your email address and the license key in our database. We use this information to send you license key and to verify your license key when you use it on webmind.app.",
+                                "When you purchase a license key, we store your email address and the license key in our database. We use this information to send you license key and to verify your license key when you use it on TypingMind.com.",
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "When you enter the license key to unlock the premium features, webmind.app will send a request from your browser to our License Server to verify the license key and get the information about the license key's owner to display on the app.",
+                                "When you enter the license key to unlock the premium features, TypingMind.com will send a request from your browser to our License Server to verify the license key and get the information about the license key's owner to display on the app.",
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "When a new version of webmind.app is available, we will send you an email to notify you about new features and updates. You can unsubscribe from the email list at any time.",
+                                "When a new version of TypingMind.com is available, we will send you an email to notify you about new features and updates. You can unsubscribe from the email list at any time.",
                             }),
                           ],
                         }),
                         (0, s.jsx)("h3", {
                           className: "text-xl my-4",
                           children:
-                            "Third-party services we use on webmind.app:",
+                            "Third-party services we use on typingmind.com:",
                         }),
                         (0, s.jsxs)("ul", {
                           className: "list-disc pl-4",
@@ -245,7 +245,7 @@
                                 (0, s.jsx)("b", {
                                   children: "Vercel Analytics by Vercel.com",
                                 }),
-                                " to collect anonymous analytics data (like how many visitors a day, etc.). This data is only collected from webmind.app and not from the self-hosted version.",
+                                " to collect anonymous analytics data (like how many visitors a day, etc.). This data is only collected from TypingMind.com and not from the self-hosted version.",
                               ],
                             }),
                             (0, s.jsxs)("li", {
@@ -261,67 +261,67 @@
                         }),
                         (0, s.jsx)("h2", {
                           className: "my-4 text-2xl font-bold",
-                          children: "For webmind.app Cloud:",
+                          children: "For TypingMind Cloud:",
                         }),
                         (0, s.jsxs)("ul", {
                           className: "list-disc pl-4",
                           children: [
                             (0, s.jsx)("li", {
                               children:
-                                "webmind.app Cloud is an opt-in only service we provide to help you conveniently share your chat conversation with friends via a link that is publicly accessible from the internet. Other features include sync chat history between devices and backup chat history.",
+                                "TypingMind Cloud is an opt-in only service we provide to help you conveniently share your chat conversation with friends via a link that is publicly accessible from the internet. Other features include sync chat history between devices and backup chat history.",
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "webmind.app Cloud is integrated to webmind.app and will only work when you explicitly use the Share/Sync/Backup feature, and pick webmind.app Could as the Share/Sync/Backup option. You will be asked to opt-in to webmind.app Cloud.",
+                                "TypingMind Cloud is integrated to TypingMind.com and will only work when you explicitly use the Share/Sync/Backup feature, and pick TypingMind Could as the Share/Sync/Backup option. You will be asked to opt-in to TypingMind Cloud.",
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "Note that you can use other services to share and sync your chat. webmind.app Cloud is just one of the options and is not mandatory.",
+                                "Note that you can use other services to share and sync your chat. TypingMind Cloud is just one of the options and is not mandatory.",
                             }),
                             (0, s.jsxs)("li", {
                               children: [
                                 "When you ",
                                 (0, s.jsx)("b", { children: "Share" }),
-                                " your chats using webmind.app Cloud, we will store your the chat conversation you shared on our server. And it will become publicly available on the internet with a secret link, possibly accessible by search engines.",
+                                " your chats using TypingMind Cloud, we will store your the chat conversation you shared on our server. And it will become publicly available on the internet with a secret link, possibly accessible by search engines.",
                               ],
                             }),
                             (0, s.jsxs)("li", {
                               children: [
                                 "We only store the chats that you ",
                                 (0, s.jsx)("b", { children: "shared" }),
-                                ", we don't store any other data on webmind.app Cloud's server (no API Key, no License Key, no other chats).",
+                                ", we don't store any other data on TypingMind Cloud's server (no API Key, no License Key, no other chats).",
                               ],
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "If you enable webmind.app Cloud for Sync and Backup, we will store all of your chats, prompts, messages, AI characters, bookmarks to the webmind.app Cloud server. All communication with webmind.app Cloud server are encrypted using HTTPS, all of your data is stored securely on our cloud database provided by planetscale.com and is encrypted at rest.",
+                                "If you enable TypingMind Cloud for Sync and Backup, we will store all of your chats, prompts, messages, AI characters, bookmarks to the TypingMind Cloud server. All communication with TypingMind Cloud server are encrypted using HTTPS, all of your data is stored securely on our cloud database provided by planetscale.com and is encrypted at rest.",
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "If you enable webmind.app Cloud for Sync and Backup, we will use Cookie to store your logged in state in order to provide you a seamless sync experience without having to login again. Our cookie will expires after 30 days without any sync activities.",
+                                "If you enable TypingMind Cloud for Sync and Backup, we will use Cookie to store your logged in state in order to provide you a seamless sync experience without having to login again. Our cookie will expires after 30 days without any sync activities.",
                             }),
                           ],
                         }),
                         (0, s.jsx)("h2", {
                           className: "my-4 text-2xl font-bold scroll-mt-32",
                           id: "custom-deployment",
-                          children: "For webmind.app Custom Deployment:",
+                          children: "For TypingMind Custom Deployment:",
                         }),
                         (0, s.jsx)("p", {
                           className: "my-2 italic",
                           children:
-                            "Note: this section only apply to you if you use the webmind.app Custom Deployment at https://webmind.app/custom.",
+                            "Note: this section only apply to you if you use the TypingMind Custom Deployment at https://typingmind.com/custom.",
                         }),
                         (0, s.jsxs)("ul", {
                           className: "list-disc pl-4",
                           children: [
                             (0, s.jsx)("li", {
                               children:
-                                'Glossary: "The product" means the webmind.app Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.',
+                                'Glossary: "The product" means the TypingMind Custom Deployment product; "Chat Instance" means the AI Chat interface you created when using the product. "You/the admin" the people who create a new chat instance and have the permission to config and customize the chat instance; "Your users" means the people who uses the Chat instance, sending messages and use the chat features on your chat instance, this could be your teammate, your users, your community members, etc.',
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "When you create a new chat instance on https://webmind.app/custom, we will collect a few information about you, including your email address, your name, and the name of your chat instance. We use this information to send you an email with the link to your chat instance.",
+                                "When you create a new chat instance on https://typingmind.com/custom, we will collect a few information about you, including your email address, your name, and the name of your chat instance. We use this information to send you an email with the link to your chat instance.",
                             }),
                             (0, s.jsx)("li", {
                               children:
@@ -353,7 +353,7 @@
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                'When your users login to your chat instance, we will send them an email with the login code. The email will be sent from "hosted@webmind.app", with your name and email address will be shown to the users as the "Reply-to" address. This is to help the users recogine you and contact support if needed. Noted that only people who are explicit added by you in the Admin Panel can login.',
+                                'When your users login to your chat instance, we will send them an email with the login code. The email will be sent from "hosted@typingmind.com", with your name and email address will be shown to the users as the "Reply-to" address. This is to help the users recogine you and contact support if needed. Noted that only people who are explicit added by you in the Admin Panel can login.',
                             }),
                             (0, s.jsxs)("li", {
                               children: [
@@ -365,7 +365,7 @@
                             }),
                             (0, s.jsx)("li", {
                               children:
-                                "Your users' chat history data, custom prompts, libraries, bookmarks are stored on their local device when they use your chat instance. Your users can choose to setup backup & sync using various services we offer in the chat interface, including webmind.app Cloud (Backup/Sync/Share).",
+                                "Your users' chat history data, custom prompts, libraries, bookmarks are stored on their local device when they use your chat instance. Your users can choose to setup backup & sync using various services we offer in the chat interface, including TypingMind Cloud (Backup/Sync/Share).",
                             }),
                             (0, s.jsx)("li", {
                               children:
