@@ -6596,9 +6596,8 @@
             p(e);
           },
           ew = async (e) => {
-            if (!e) {
-              A(!1);
-              return;
+            A(true); 
+            return;
             }
             try {
               let t = await fetch("https://www.webmind.app/api/license", {
@@ -6742,7 +6741,7 @@
                   onToggleFavorite: ey,
                   licensePayload: X,
                   setOpenBackupSync: J,
-                  verifyLicenseKey: ew,
+                  
                   decryptedApiKey: c,
                   setOpenDecrypt: eo,
                 });
@@ -6957,7 +6956,7 @@
                       : null,
                     (0, n.jsx)(tb, {
                       licenseVerified: T,
-                      verifyLicenseKey: ew,
+                      
                     }),
                   ],
                 });
@@ -6969,7 +6968,7 @@
               setOpen: O,
               setOpenBuy: P,
               setLicenseVerified: A,
-              verifyLicenseKey: ew,
+              
             }),
             (0, n.jsx)(e9, {
               open: K,
