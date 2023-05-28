@@ -414,13 +414,13 @@
                                     target: "_blank",
                                     href: "https://".concat(
                                       w.subdomain,
-                                      ".typingcloud.com"
+                                      ".webmind.app"
                                     ),
                                     className:
                                       "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:bg-gray-400 gap-2",
                                     children: [
                                       w.subdomain,
-                                      ".typingcloud.com",
+                                      ".webmind.app",
                                       (0, n.jsx)(b.CkN, {
                                         className: "w-4 h-4",
                                       }),
@@ -1130,7 +1130,7 @@
                                   className: "text-sm font-mono mt-2",
                                   children:
                                     "CNAME" == s
-                                      ? "cname.typingcloud.com"
+                                      ? "cname.webmind.app"
                                       : "76.76.21.21",
                                 }),
                               ],
@@ -1254,7 +1254,7 @@
                 (0, n.jsx)("div", {
                   className: "text-xs text-gray-500 my-1",
                   children:
-                    "Your default sub-domain is hosted on *.typingcloud.com",
+                    "Your default sub-domain is hosted on *.webmind.app",
                 }),
                 (0, n.jsx)("div", {
                   children: (0, n.jsxs)("div", {
@@ -1262,7 +1262,7 @@
                       "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500 bg-gray-100 px-2",
                     children: [
                       (null == t ? void 0 : t.subdomain) || "",
-                      ".typingcloud.com",
+                      ".webmind.app",
                     ],
                   }),
                 }),

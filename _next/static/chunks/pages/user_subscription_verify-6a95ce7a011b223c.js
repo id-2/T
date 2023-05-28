@@ -68,7 +68,7 @@
           p = a
             ? a.hostname
               ? "https://" + a.hostname + "/"
-              : "https://".concat(a.subdomain, ".typingcloud.com/")
+              : "https://".concat(a.subdomain, ".webmind.app/")
             : "https://www.webmind.app",
           m =
             a &&

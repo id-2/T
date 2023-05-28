@@ -4623,7 +4623,7 @@
                         " | ",
                         (0, n.jsx)("a", {
                           rel: "noopener noreferrer",
-                          href: "https://tdinh.notion.site/tdinh/Typing-Mind-Changelog-b23c1d7de373417bbad50247f7a1a7cb",
+                          href: "https://tdinh.notion.site/tdinh/webmind-Changelog-b23c1d7de373417bbad50247f7a1a7cb",
                           target: "_blank",
                           className: "jsx-7078ffb922cb3c38 hover:underline",
                           children: "Changelog",
@@ -6080,7 +6080,7 @@
             (0, n.jsx)("div", {
               className: "mt-8 px-4 flex items-center justify-center",
               children: (0, n.jsx)("a", {
-                href: "https://www.producthunt.com/posts/typing-mind?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-typing-mind",
+                href: "https://www.producthunt.com/posts/webmind?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-webmind",
                 target: "_blank",
                 children: (0, n.jsx)("img", {
                   src: "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=383464&theme=light",
@@ -6094,7 +6094,7 @@
             (0, n.jsx)("div", {
               className: "mt-2 px-4 flex items-center justify-center",
               children: (0, n.jsx)("a", {
-                href: "https://www.producthunt.com/posts/typing-mind?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-typing-mind",
+                href: "https://www.producthunt.com/posts/webmind?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-webmind",
                 target: "_blank",
                 children: (0, n.jsx)("img", {
                   src: "https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=383464&theme=light&period=daily",
