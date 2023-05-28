@@ -41,7 +41,7 @@
                 (0, n.jsx)("div", {
                   className: "text-center",
                   children:
-                    "Don't find what you're looking for? Email us at support@typingmind.com",
+                    "Don't find what you're looking for? Email us at support@webmind.app",
                 }),
                 (0, n.jsx)(a.Z, {}),
               ],
@@ -1289,7 +1289,7 @@
                     type: "text",
                     className:
                       "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                    placeholder: "www.typingmind.com",
+                    placeholder: "www.webmind.app",
                     value: a,
                     onChange: (e) => r(e.target.value),
                   }),
@@ -1545,7 +1545,7 @@
                 "text-xs font-semibold text-gray-500 text-center px-4 mt-4",
               children: [
                 "You will receive a verification email from ",
-                (0, n.jsx)("b", { children: "hosted@typingmind.com" }),
+                (0, n.jsx)("b", { children: "hosted@webmind.app" }),
                 ". Please check your spam folder if you don't see it in your inbox.",
               ],
             }),

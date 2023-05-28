@@ -24,7 +24,7 @@
         {
           question: "Is this app free?",
           answer:
-            "TypingMind.com is free to use with some basic features. You will need to have a working OpenAI API Key in order to use the app. When you use the API Key, you pay directly to OpenAI for the amount of credits/tokens you use. TypingMind.com has premium features that can be unlocked with a one-time purchase.",
+            "webmind.app is free to use with some basic features. You will need to have a working OpenAI API Key in order to use the app. When you use the API Key, you pay directly to OpenAI for the amount of credits/tokens you use. webmind.app has premium features that can be unlocked with a one-time purchase.",
         },
         {
           question: "Where can I get an OpenAI API Key?",
@@ -33,7 +33,7 @@
         },
         {
           question:
-            "Do I need to pay for ChatGPT Plus ($20/month) to use TypingMind.com?",
+            "Do I need to pay for ChatGPT Plus ($20/month) to use webmind.app?",
           answer:
             "No! A ChatGPT Plus subscription is not needed. You just need to have an OpenAI's API Key. You can see more info on how to get one here: https://openai.com/blog/openai-api",
         },
@@ -54,29 +54,29 @@
         },
         {
           question:
-            "Is it ok to give my OpenAI API Key to TypingMind? Does OpenAI allow this use case?",
+            "Is it ok to give my OpenAI API Key to webmind.app? Does OpenAI allow this use case?",
           answer:
-            "Yes. TypingMind only stores your API Key locally and never sends your API Key anywhere. OpenAI allows use cases where the API key is stored locally in the user's device. You can see this official response from OpenAI's staff here: https://community.openai.com/t/openais-bring-your-own-key-policy/14538/4",
+            "Yes. webmind.app only stores your API Key locally and never sends your API Key anywhere. OpenAI allows use cases where the API key is stored locally in the user's device. You can see this official response from OpenAI's staff here: https://community.openai.com/t/openais-bring-your-own-key-policy/14538/4",
         },
         {
           question: "Is my API Key encrypted in local storage?",
           answer:
-            'TypingMind offers additional encryption for your API Key. You can enable encryption with a password by clicking the "OpenAI API Key" button in the sidebar and selecting "Encrypt API key...". Your API Key will be encrypted using the AES algorithm provided by the open-source CryptoJS library (https://github.com/brix/crypto-js). TypingMind only provides an encryption feature for your API key. Chat messages, prompts, AI characters, and other elements are stored using the standard local storage of your browser, which may or may not include encryption, depending on your browser. The encryption process are done entirely locally on your device, there is no backend server. If you use TypingMind on multiple devices, you will need to encrypt your API key on all of them, you can also set different passwords on different devices.',
+            'webmind.app offers additional encryption for your API Key. You can enable encryption with a password by clicking the "OpenAI API Key" button in the sidebar and selecting "Encrypt API key...". Your API Key will be encrypted using the AES algorithm provided by the open-source CryptoJS library (https://github.com/brix/crypto-js). webmind.app only provides an encryption feature for your API key. Chat messages, prompts, AI characters, and other elements are stored using the standard local storage of your browser, which may or may not include encryption, depending on your browser. The encryption process are done entirely locally on your device, there is no backend server. If you use webmind.app on multiple devices, you will need to encrypt your API key on all of them, you can also set different passwords on different devices.',
         },
         {
           question:
-            "What's the difference between ChatGPT Plus and ChatGPT API via TypingMind?",
+            "What's the difference between ChatGPT Plus and ChatGPT API via webmind.app?",
           answer:
             "Under the hood, ChatGPT Plus and ChatGPT API offer the same model and the same quality. You can view this on their official announcement here: https://platform.openai.com/docs/guides/chat. The initial system instruction can be a little bit different, which can be configured to make the AI output different messages from time to time.",
         },
         {
-          question: "Can I use GPT-4 in TypingMind?",
+          question: "Can I use GPT-4 in webmind.app?",
           answer:
-            "TypingMind does not give you access to the GPT-4 model automatically. If you have access to the GPT-4 model via API, you can use it on TypingMind. Note that GPT-4 API access is not the same as the ChatGPT Plus subscription. To get access to the GPT-4 API, you can sign-up for the GPT-4 API access here: https://openai.com/waitlist/gpt-4-api.",
+            "webmind.app does not give you access to the GPT-4 model automatically. If you have access to the GPT-4 model via API, you can use it on webmind.app. Note that GPT-4 API access is not the same as the ChatGPT Plus subscription. To get access to the GPT-4 API, you can sign-up for the GPT-4 API access here: https://openai.com/waitlist/gpt-4-api.",
         },
         {
           question:
-            "I have ChatGPT Plus, will it cost me more to use ChatGPT API via TypingMind?",
+            "I have ChatGPT Plus, will it cost me more to use ChatGPT API via webmind.app?",
           answer:
             "The ChatGPT API costs soooooo little you won't even notice it. Typical chat conversation is about 1000 characters, which costs ~$0.001. That's less than a cent. You can have thousands of chats and it will only costs you like $1. See official pricing here: https://openai.com/pricing#language-models",
         },
@@ -88,7 +88,7 @@
         {
           question: "How can I sync my chat conversations across devices?",
           answer:
-            "You can export the chats and import it on another device. You can also enable TypingMind Cloud for seamless syncing across devices. TypingMind Cloud is a free service provided to all TypingMind users. You can enable it by clicking the cloud icon at the bottom of the sidebar.",
+            "You can export the chats and import it on another device. You can also enable webmind.app Cloud for seamless syncing across devices. webmind.app Cloud is a free service provided to all webmind.app users. You can enable it by clicking the cloud icon at the bottom of the sidebar.",
         },
         {
           question: "Is it really faster than ChatGPT?",
@@ -97,9 +97,9 @@
         },
         {
           question:
-            "Why does sometimes TypingMind responds differently than the default OpenAI's ChatGPT event with the same prompt?",
+            "Why does sometimes webmind.app responds differently than the default OpenAI's ChatGPT event with the same prompt?",
           answer:
-            "TypingMind uses the same underlying model as OpenAI's default chat app. For the same prompt, it can produce different responses each time. The default chat app by OpenAI may also have some initial prompt settings that are different from TypingMind. If you don't get the response you expects, try \"Re-generate Response\" or tweaking the prompt.",
+            "webmind.app uses the same underlying model as OpenAI's default chat app. For the same prompt, it can produce different responses each time. The default chat app by OpenAI may also have some initial prompt settings that are different from webmind.app. If you don't get the response you expects, try \"Re-generate Response\" or tweaking the prompt.",
         },
         {
           question: "Can I self-host it?",
@@ -126,7 +126,7 @@
           question:
             "Is the macOS app a native app? How do I receive updates with the macOS app?",
           answer:
-            "The macOS app is a simple native app with a webview that runs the latest version of TypingMind on your dock. It's only ~5MB in size, load super fast, and can update itself everytime you open it. You can also check for updates manually in the app's menu.",
+            "The macOS app is a simple native app with a webview that runs the latest version of webmind.app on your dock. It's only ~5MB in size, load super fast, and can update itself everytime you open it. You can also check for updates manually in the app's menu.",
         },
         {
           question: "Is there a Windows/Linux app?",
@@ -135,12 +135,12 @@
         {
           question: "Is there an Android/iOS/iPad app?",
           answer:
-            "No, but you can add typingmind.com to your home screen. It works exaclty like an app!",
+            "No, but you can add webmind.app to your home screen. It works exaclty like an app!",
         },
         {
           question: "License Key vs. API Key",
           answer:
-            "License Key is used to activate the premium features of TypingMind.com. API Key refers to OpenAI ChatGPT API Key, and is used to connect to OpenAI's API to interact with ChatGPT. You need an API Key to use the app. The License Key is only needed if you want to use the premium features.",
+            "License Key is used to activate the premium features of webmind.app. API Key refers to OpenAI ChatGPT API Key, and is used to connect to OpenAI's API to interact with ChatGPT. You need an API Key to use the app. The License Key is only needed if you want to use the premium features.",
         },
         {
           question: "What are the premium features?",
@@ -163,7 +163,7 @@
         {
           question: "How many devices/users can I use the License Key on?",
           answer:
-            'Each license key can be used on 5 devices which is typically enough for 1 user. If you need to use it on for more devices, you can buy a new license keys or add more devices to your existing license key. "Device" is counted based on the number of places where the license key is entered and the chat history is saved for continuous use. For example, if you use Typing Mind on Chrome browser on your laptop and also on your phone, that will be 2 devices. Note that the license key and chat history is saved locally per browser, so if you use Typing Mind on Chrome and also on Firefox, you will need to enter the license key 2 times, have 2 separate chat histories, and that counts as 2 devices. If you need to use the license key on a new device but have reached the device limit, you can unlink the previous devices first using the License Manager (this is done online, access to the previous devices not needed). This device limit is put in place to avoid license key abuse and pirate.',
+            'Each license key can be used on 5 devices which is typically enough for 1 user. If you need to use it on for more devices, you can buy a new license keys or add more devices to your existing license key. "Device" is counted based on the number of places where the license key is entered and the chat history is saved for continuous use. For example, if you use webmind.app on Chrome browser on your laptop and also on your phone, that will be 2 devices. Note that the license key and chat history is saved locally per browser, so if you use webmind.app on Chrome and also on Firefox, you will need to enter the license key 2 times, have 2 separate chat histories, and that counts as 2 devices. If you need to use the license key on a new device but have reached the device limit, you can unlink the previous devices first using the License Manager (this is done online, access to the previous devices not needed). This device limit is put in place to avoid license key abuse and pirate.',
         },
         {
           question:
@@ -268,24 +268,24 @@
         i = t(67798);
       let r = [
         {
-          question: "Can I self-host TypingMind?",
+          question: "Can I self-host webmind.app?",
           answer:
             "Yes. After you make a purchase, you will receive a link to download the static web app and the instruction how to deploy it on your own server. Note that you will only receive the compiled code of the app, the full source code is not available because the app is not open-source. You can deploy the app anywhere without having to update any code or settings.",
         },
         {
           question: "What is self-hosting?",
           answer:
-            "Self-host means you deploy the same version of TypingMind.com on your own web hosting server and domain name for your personal use.",
+            "Self-host means you deploy the same version of webmind.app on your own web hosting server and domain name for your personal use.",
         },
         {
           question: "Why self-hosting? What are the benefits?",
           answer:
-            "Some people prefer to run the software on their own server for privacy and availability reasons. For example, if TypingMind.com becomes inaccessible in the future, you can still access your own version of TypingMind from your server without any problem. The self-host version can also be run locally like an app.",
+            "Some people prefer to run the software on their own server for privacy and availability reasons. For example, if webmind.app becomes inaccessible in the future, you can still access your own version of webmind.app from your server without any problem. The self-host version can also be run locally like an app.",
         },
         {
           question: "What can I customize in the self-host version?",
           answer:
-            "As of now, you cannot customize anything. You the self-host version will be exactly the same as the one you are using on TypingMind.com. I'm working on making it possible to set custom UI and branding soon. Stay tuned!",
+            "As of now, you cannot customize anything. You the self-host version will be exactly the same as the one you are using on webmind.app. I'm working on making it possible to set custom UI and branding soon. Stay tuned!",
         },
         {
           question: "Where can I deploy my self-host version?",
@@ -307,19 +307,19 @@
           question:
             "Do I still need a License Key and Open API Key to use the self-hosted version?",
           answer:
-            "Yes. Both are needed, as the self-hosted version is exactly the same as the version you see on TypingMind.com. The License Key is needed in the self-host version. When you enter the license key, the app will connect to TypingMind's license server to verify your license.",
+            "Yes. Both are needed, as the self-hosted version is exactly the same as the version you see on webmind.app. The License Key is needed in the self-host version. When you enter the license key, the app will connect to webmind.app's license server to verify your license.",
         },
         {
           question:
             "Can I let me team/community/customers use the self-host version?",
           answer:
-            "You can, but keep in mind that they will also need a TypingMind License Key and OpenAI API Key in order to use it.",
+            "You can, but keep in mind that they will also need a webmind.app License Key and OpenAI API Key in order to use it.",
         },
         {
           question:
             "Can I embed my License Key/API key to the self-host version somehow and let my team/community/customers use it?",
           answer:
-            "No you can't, and you shouldn't. It's not safe to share your License Key and API Key to the public like that. The Static App Self-host version is meant for personal use. If you are looking to setup a custom deployment of TypingMind for your team/community/customers, please check out https://typingmind.com/custom",
+            "No you can't, and you shouldn't. It's not safe to share your License Key and API Key to the public like that. The Static App Self-host version is meant for personal use. If you are looking to setup a custom deployment of webmind.app for your team/community/customers, please check out https://webmind.app/custom",
         },
         {
           question: "Can I have support on technical issues if I self-host?",
@@ -456,7 +456,7 @@
                     children: (0, o.jsx)("a", {
                       href: "/",
                       className: "text-blue-500 hover:underline",
-                      children: "Go back to TypingMind.com",
+                      children: "Go back to webmind.app",
                     }),
                   }),
                   (0, o.jsx)("h1", {
@@ -471,7 +471,7 @@
                           (0, o.jsxs)("div", {
                             className: "my-4",
                             children: [
-                              "Hello! TypingMind.com is built and maintained by me,",
+                              "Hello! webmind.app is built and maintained by me,",
                               " ",
                               (0, o.jsx)("b", {
                                 children: (0, o.jsx)("a", {
@@ -560,11 +560,11 @@
                           ": ",
                           (0, o.jsx)("br", {}),
                           (0, o.jsx)("a", {
-                            href: "mailto:feedback@typingmind.com",
+                            href: "mailto:feedback@webmind.app",
                             className: "text-blue-600 hover:underline",
                             target: "_blank",
                             rel: "noreferrer noopener",
-                            children: "feedback@typingmind.com",
+                            children: "feedback@webmind.app",
                           }),
                           " ",
                           (0, o.jsx)("br", {}),
@@ -582,11 +582,11 @@
                           ": ",
                           (0, o.jsx)("br", {}),
                           (0, o.jsx)("a", {
-                            href: "mailto:support@typingmind.com",
+                            href: "mailto:support@webmind.app",
                             className: "text-blue-600 hover:underline",
                             target: "_blank",
                             rel: "noreferrer noopener",
-                            children: "support@typingmind.com",
+                            children: "support@webmind.app",
                           }),
                           " ",
                           (0, o.jsx)("br", {}),

@@ -31,13 +31,13 @@
           } = t,
           c = s
             ? s.brand + " – " + s.tagline
-            : "TypingMind — A better UI for ChatGPT",
+            : "webmind.app — A better UI for ChatGPT",
           p = (n ? "(*) " : "") + (e || c),
           l = s
             ? s.hostname
               ? "https://" + s.hostname + "/"
               : "https://".concat(s.subdomain, ".typingcloud.com/")
-            : "https://www.typingmind.com",
+            : "https://www.webmind.app",
           m =
             s &&
             ""
@@ -49,7 +49,7 @@
             a ||
             (null == s ? void 0 : s.posterURL) ||
             m ||
-            "https://www.typingmind.com/poster-2.png",
+            "https://www.webmind.app/poster-2.png",
           x = (null == s ? void 0 : s.description) || o,
           g = null == s ? void 0 : s.logoURL;
         return (0, i.jsxs)(r(), {
@@ -141,7 +141,7 @@
           (0, o.useEffect)(() => {
             window.localStorage.setItem("aff", "chatgptbot"),
               setTimeout(() => {
-                window.location.href = "https://www.typingmind.com";
+                window.location.href = "https://www.webmind.app";
               }, 1e3);
           }, []),
           (0, i.jsx)(i.Fragment, {
@@ -151,7 +151,7 @@
                 (0, i.jsx)(r.Z, {
                   title: "ChatGPTBot Web UI - AI Chatbot",
                   overridePosterURL:
-                    "https://www.typingmind.com/chatgptbot.png",
+                    "https://www.webmind.app/chatgptbot.png",
                 }),
                 (0, i.jsx)("div", {
                   className: "py-20 ",

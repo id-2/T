@@ -1,5 +1,5 @@
 self.addEventListener('install', function (event) {
-  console.log('Hello from Typing Mind!');
+  console.log('Hello from webmind.app!');
 });
 
 self.addEventListener('fetch', function (event) {

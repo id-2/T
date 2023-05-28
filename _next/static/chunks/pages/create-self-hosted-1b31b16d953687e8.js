@@ -31,13 +31,13 @@
           } = e,
           l = a
             ? a.brand + " – " + a.tagline
-            : "TypingMind — A better UI for ChatGPT",
+            : "webmind.app — A better UI for ChatGPT",
           c = (n ? "(*) " : "") + (t || l),
           d = a
             ? a.hostname
               ? "https://" + a.hostname + "/"
               : "https://".concat(a.subdomain, ".typingcloud.com/")
-            : "https://www.typingmind.com",
+            : "https://www.webmind.app",
           m =
             a &&
             ""
@@ -49,7 +49,7 @@
             o ||
             (null == a ? void 0 : a.posterURL) ||
             m ||
-            "https://www.typingmind.com/poster-2.png",
+            "https://www.webmind.app/poster-2.png",
           u = (null == a ? void 0 : a.description) || i,
           h = null == a ? void 0 : a.logoURL;
         return (0, s.jsxs)(r(), {
@@ -188,7 +188,7 @@
                       children: (0, s.jsx)("a", {
                         href: "/",
                         className: "text-blue-500 hover:underline",
-                        children: "Go back to TypingMind.com",
+                        children: "Go back to webmind.app",
                       }),
                     }),
                     (0, s.jsxs)("div", {
@@ -201,7 +201,7 @@
                         (0, s.jsxs)("div", {
                           className: "text-2xl text-center font-semibold my-10",
                           children: [
-                            "While-labeling your self-hosted TypingMind.",
+                            "While-labeling your self-hosted webmind.app.",
                             (0, s.jsx)("br", {}),
                             "With only 4 simple steps:",
                           ],
@@ -248,7 +248,7 @@
                                   (0, s.jsx)("b", {
                                     children: "root directory",
                                   }),
-                                  " of your current TypingMind self-host site.",
+                                  " of your current webmind.app self-host site.",
                                 ],
                               }),
                               (0, s.jsxs)("li", {
@@ -321,7 +321,7 @@
                                     className:
                                       "w-full border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50",
                                     type: "text",
-                                    placeholder: "Typing Mind",
+                                    placeholder: "webmind.app",
                                     value: d,
                                     onChange: (e) => m(e.target.value),
                                   }),

@@ -139,7 +139,7 @@
                           type: "email",
                           className:
                             "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                          placeholder: "tony@typingmind.com",
+                          placeholder: "tony@webmind.app",
                           value: x,
                           onChange: (e) => g(e.target.value),
                         }),
@@ -193,7 +193,7 @@
                           type: "text",
                           className:
                             "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                          placeholder: "Typing Mind",
+                          placeholder: "webmind.app",
                           value: e,
                           onChange: (e) => t(e.target.value),
                         }),
@@ -244,7 +244,7 @@
                           type: "text",
                           className:
                             "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                          placeholder: "https://typingmind.com/logo.png",
+                          placeholder: "https://webmind.app/logo.png",
                           value: o,
                           onChange: (e) => c(e.target.value),
                         }),
@@ -327,7 +327,7 @@
                                 "I have read and agreed with the",
                                 " ",
                                 (0, s.jsx)("a", {
-                                  href: "https://typingmind.com/terms#custom-deployment",
+                                  href: "https://webmind.app/terms#custom-deployment",
                                   target: "_blank",
                                   className: "text-blue-600",
                                   children: "Terms of Service",
@@ -336,7 +336,7 @@
                                 "and",
                                 " ",
                                 (0, s.jsx)("a", {
-                                  href: "https://typingmind.com/privacy#custom-deployment",
+                                  href: "https://webmind.app/privacy#custom-deployment",
                                   target: "_blank",
                                   className: "text-blue-600",
                                   children: "Privacy Policy",
@@ -345,7 +345,7 @@
                                 "of the ",
                                 (0, s.jsx)("b", {
                                   children:
-                                    "TypingMind Custom Deployment Early Access",
+                                    "webmind.app Custom Deployment Early Access",
                                 }),
                                 ".",
                               ],
@@ -395,13 +395,13 @@
           } = e,
           o = r
             ? r.brand + " – " + r.tagline
-            : "TypingMind — A better UI for ChatGPT",
+            : "webmind.app — A better UI for ChatGPT",
           c = (n ? "(*) " : "") + (t || o),
           d = r
             ? r.hostname
               ? "https://" + r.hostname + "/"
               : "https://".concat(r.subdomain, ".typingcloud.com/")
-            : "https://www.typingmind.com",
+            : "https://www.webmind.app",
           m =
             r &&
             ""
@@ -413,7 +413,7 @@
             l ||
             (null == r ? void 0 : r.posterURL) ||
             m ||
-            "https://www.typingmind.com/poster-2.png",
+            "https://www.webmind.app/poster-2.png",
           g = (null == r ? void 0 : r.description) || i,
           h = null == r ? void 0 : r.logoURL;
         return (0, s.jsxs)(a(), {
@@ -504,7 +504,7 @@
         l = !0;
       t.default = (0, i.withSuperJSONPage)(function () {
         return (0,
-        s.jsx)(s.Fragment, { children: (0, s.jsxs)("div", { className: "min-h-screen", children: [(0, s.jsx)(a.Z, { title: "Create New Chat Instance", overridePosterURL: "https://typingmind.com/custom-poster.png" }), (0, s.jsx)("div", { className: "py-10 ", children: (0, s.jsxs)("main", { className: "max-w-2xl mx-auto px-4", children: [(0, s.jsxs)("div", { className: "text-center my-10", children: [(0, s.jsx)("h1", { className: "text-4xl font-bold text-center my-2", children: "Create a new Chat Instance" }), (0, s.jsx)("span", { className: "text-xs bg-green-500 rounded-full px-3 py-1 text-white text-white font-semibold inline-block", children: "Early Access" })] }), (0, s.jsx)(r.Z, {})] }) })] }) });
+        s.jsx)(s.Fragment, { children: (0, s.jsxs)("div", { className: "min-h-screen", children: [(0, s.jsx)(a.Z, { title: "Create New Chat Instance", overridePosterURL: "https://webmind.app/custom-poster.png" }), (0, s.jsx)("div", { className: "py-10 ", children: (0, s.jsxs)("main", { className: "max-w-2xl mx-auto px-4", children: [(0, s.jsxs)("div", { className: "text-center my-10", children: [(0, s.jsx)("h1", { className: "text-4xl font-bold text-center my-2", children: "Create a new Chat Instance" }), (0, s.jsx)("span", { className: "text-xs bg-green-500 rounded-full px-3 py-1 text-white text-white font-semibold inline-block", children: "Early Access" })] }), (0, s.jsx)(r.Z, {})] }) })] }) });
       });
     },
     9008: function (e, t, n) {

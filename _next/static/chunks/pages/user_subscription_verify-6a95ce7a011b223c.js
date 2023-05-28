@@ -63,13 +63,13 @@
           } = e,
           c = a
             ? a.brand + " – " + a.tagline
-            : "TypingMind — A better UI for ChatGPT",
+            : "webmind.app — A better UI for ChatGPT",
           l = (n ? "(*) " : "") + (t || c),
           p = a
             ? a.hostname
               ? "https://" + a.hostname + "/"
               : "https://".concat(a.subdomain, ".typingcloud.com/")
-            : "https://www.typingmind.com",
+            : "https://www.webmind.app",
           m =
             a &&
             ""
@@ -81,7 +81,7 @@
             o ||
             (null == a ? void 0 : a.posterURL) ||
             m ||
-            "https://www.typingmind.com/poster-2.png",
+            "https://www.webmind.app/poster-2.png",
           x = (null == a ? void 0 : a.description) || s,
           f = null == a ? void 0 : a.logoURL;
         return (0, i.jsxs)(r(), {

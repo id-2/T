@@ -206,7 +206,7 @@
                             type: "text",
                             className:
                               "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                            placeholder: "tony@typingmind.com",
+                            placeholder: "tony@webmind.app",
                             value: W,
                             onChange: (e) => T(e.target.value),
                           }),
@@ -244,7 +244,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "Typing Mind",
+                        placeholder: "webmind.app",
                         value: c,
                         onChange: (e) => m(e.target.value),
                       }),
@@ -323,7 +323,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "https://typingmind.com/logo.png",
+                        placeholder: "https://webmind.app/logo.png",
                         value: u,
                         onChange: (e) => h(e.target.value),
                       }),
@@ -349,7 +349,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "https://typingmind.com/poster.png",
+                        placeholder: "https://webmind.app/poster.png",
                         value: y,
                         onChange: (e) => b(e.target.value),
                       }),
@@ -381,7 +381,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "https://typingmind.com/faqs",
+                        placeholder: "https://webmind.app/faqs",
                         value: j,
                         onChange: (e) => w(e.target.value),
                       }),
@@ -405,7 +405,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "https://typingmind.com/terms",
+                        placeholder: "https://webmind.app/terms",
                         value: S,
                         onChange: (e) => z(e.target.value),
                       }),
@@ -429,7 +429,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "https://typingmind.com/privacy",
+                        placeholder: "https://webmind.app/privacy",
                         value: N,
                         onChange: (e) => X(e.target.value),
                       }),
@@ -454,7 +454,7 @@
                         type: "text",
                         className:
                           "relative block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:py-1.5 sm:text-sm sm:leading-6 min-h-[36px] max-h-[500px] resize-none dark:bg-zinc-600 dark:text-white dark:ring-gray-500 dark:focus:ring-blue-500",
-                        placeholder: "mailto:support@typingmind.com",
+                        placeholder: "mailto:support@webmind.app",
                         value: C,
                         onChange: (e) => _(e.target.value),
                       }),

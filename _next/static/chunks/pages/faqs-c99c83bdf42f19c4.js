@@ -197,24 +197,24 @@
         i = t(67798);
       let r = [
         {
-          question: "Can I self-host TypingMind?",
+          question: "Can I self-host webmind.app?",
           answer:
             "Yes. After you make a purchase, you will receive a link to download the static web app and the instruction how to deploy it on your own server. Note that you will only receive the compiled code of the app, the full source code is not available because the app is not open-source. You can deploy the app anywhere without having to update any code or settings.",
         },
         {
           question: "What is self-hosting?",
           answer:
-            "Self-host means you deploy the same version of TypingMind.com on your own web hosting server and domain name for your personal use.",
+            "Self-host means you deploy the same version of webmind.app on your own web hosting server and domain name for your personal use.",
         },
         {
           question: "Why self-hosting? What are the benefits?",
           answer:
-            "Some people prefer to run the software on their own server for privacy and availability reasons. For example, if TypingMind.com becomes inaccessible in the future, you can still access your own version of TypingMind from your server without any problem. The self-host version can also be run locally like an app.",
+            "Some people prefer to run the software on their own server for privacy and availability reasons. For example, if webmind.app becomes inaccessible in the future, you can still access your own version of webmind.app from your server without any problem. The self-host version can also be run locally like an app.",
         },
         {
           question: "What can I customize in the self-host version?",
           answer:
-            "As of now, you cannot customize anything. You the self-host version will be exactly the same as the one you are using on TypingMind.com. I'm working on making it possible to set custom UI and branding soon. Stay tuned!",
+            "As of now, you cannot customize anything. You the self-host version will be exactly the same as the one you are using on webmind.app. I'm working on making it possible to set custom UI and branding soon. Stay tuned!",
         },
         {
           question: "Where can I deploy my self-host version?",
@@ -236,19 +236,19 @@
           question:
             "Do I still need a License Key and Open API Key to use the self-hosted version?",
           answer:
-            "Yes. Both are needed, as the self-hosted version is exactly the same as the version you see on TypingMind.com. The License Key is needed in the self-host version. When you enter the license key, the app will connect to TypingMind's license server to verify your license.",
+            "Yes. Both are needed, as the self-hosted version is exactly the same as the version you see on webmind.app. The License Key is needed in the self-host version. When you enter the license key, the app will connect to webmind.app's license server to verify your license.",
         },
         {
           question:
             "Can I let me team/community/customers use the self-host version?",
           answer:
-            "You can, but keep in mind that they will also need a TypingMind License Key and OpenAI API Key in order to use it.",
+            "You can, but keep in mind that they will also need a webmind.app License Key and OpenAI API Key in order to use it.",
         },
         {
           question:
             "Can I embed my License Key/API key to the self-host version somehow and let my team/community/customers use it?",
           answer:
-            "No you can't, and you shouldn't. It's not safe to share your License Key and API Key to the public like that. The Static App Self-host version is meant for personal use. If you are looking to setup a custom deployment of TypingMind for your team/community/customers, please check out https://typingmind.com/custom",
+            "No you can't, and you shouldn't. It's not safe to share your License Key and API Key to the public like that. The Static App Self-host version is meant for personal use. If you are looking to setup a custom deployment of webmind.app for your team/community/customers, please check out https://webmind.app/custom",
         },
         {
           question: "Can I have support on technical issues if I self-host?",
@@ -378,7 +378,7 @@
           children: (0, n.jsxs)("div", {
             className: "min-h-screen",
             children: [
-              (0, n.jsx)(o.Z, { title: "FAQs about TypingMind" }),
+              (0, n.jsx)(o.Z, { title: "FAQs about webmind.app" }),
               (0, n.jsx)("div", {
                 className: "py-10 ",
                 children: (0, n.jsxs)("main", {
@@ -389,7 +389,7 @@
                       children: (0, n.jsx)("a", {
                         href: "/",
                         className: "text-blue-500 hover:underline",
-                        children: "Go back to TypingMind.com",
+                        children: "Go back to webmind.app",
                       }),
                     }),
                     (0, n.jsxs)("div", {
@@ -406,7 +406,7 @@
                             "We trained a GPT-4 model to answer your questions based on our",
                             " ",
                             (0, n.jsx)("a", {
-                              href: "https://www.typingmind.com/faqs",
+                              href: "https://www.webmind.app/faqs",
                               target: "_blank",
                               className: "text-blue-500 hover:underline",
                               children: "FAQs",
@@ -414,7 +414,7 @@
                             ",",
                             " ",
                             (0, n.jsx)("a", {
-                              href: "https://www.typingmind.com/faqs",
+                              href: "https://www.webmind.app/faqs",
                               target: "_blank",
                               className: "text-blue-500 hover:underline",
                               children: "Terms of Service",
@@ -422,7 +422,7 @@
                             ", and",
                             " ",
                             (0, n.jsx)("a", {
-                              href: "https://www.typingmind.com/faqs",
+                              href: "https://www.webmind.app/faqs",
                               target: "_blank",
                               className: "text-blue-500 hover:underline",
                               children: "Privacy Policy",
@@ -436,7 +436,7 @@
                         }),
                         (0, n.jsx)(a.Z, {
                           showIntro: !1,
-                          source: "typingmind",
+                          source: "webmind.app",
                         }),
                         (0, n.jsx)("hr", { className: "my-10" }),
                         (0, n.jsx)("h2", {
